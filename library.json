@@ -16,7 +16,7 @@
         "url": "https://huynhtancuong.github.io/about/"
       }
     ],
-    "license": "GNU Lesser General Public License v3.0",
+    "license": "GPL-3.0-only",
     "homepage": "https://github.com/huynhtancuong/ADXL345",
     "dependencies": {
       "Wire": "*"
