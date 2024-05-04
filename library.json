@@ -1,0 +1,26 @@
+{
+    "name": "ADXL345",
+    "version": "1.0.0",
+    "description": "A library to drive the ADXL345 accelerometer",
+    "keywords": "ADXL345, accelerometer",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/huynhtancuong/ADXL345.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Huynh Tan Cuong",
+        "email": "huynhtancuong.hcm@gmail.com",
+        "url": "https://huynhtancuong.github.io/about/"
+      }
+    ],
+    "license": "GNU Lesser General Public License v3.0",
+    "homepage": "https://github.com/huynhtancuong/ADXL345",
+    "dependencies": {
+      "Wire": "*"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
