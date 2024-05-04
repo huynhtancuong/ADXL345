@@ -26,7 +26,7 @@ To use this library, follow these steps:
 
 To use the ADXL345 library, include the library header file in your sketch:
 
-'''c
+```cpp
 #include <Arduino.h>
 #include "ADXL345.h"
 
@@ -63,5 +63,5 @@ void loop(void)
 
     delay(100);
 }
-'''
+```
 
