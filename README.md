@@ -28,7 +28,7 @@ To use the ADXL345 library, include the library header file in your sketch:
 
 ```cpp
 #include <Arduino.h>
-#include "ADXL345.h"
+#include <ADXL345.h>
 
 ADXL345 accel_sensor;
 
@@ -51,7 +51,7 @@ void loop(void)
 
     float G_x = accel_sensor.get_G_y(accelReading);
     float G_y = accel_sensor.get_G_x(accelReading);
-    float G_z = -accel_sensor.get_G_z(accelReading);
+    float G_z = accel_sensor.get_G_z(accelReading);
 
     float accel_x = accel_sensor.get_SI_x(accelReading);
     float accel_y = accel_sensor.get_SI_y(accelReading);
