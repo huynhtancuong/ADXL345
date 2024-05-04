@@ -1,7 +1,7 @@
 {
     "name": "ADXL345",
-    "version": "1.0.1",
-    "description": "A library to drive the ADXL345 accelerometer",
+    "version": "1.0.2",
+    "description": "This is a library for the ADXL345 accelerometer sensor. It provides a simple interface to read measurements from the sensor within the range of ±2g.",
     "keywords": "ADXL345, accelerometer",
     "repository":
     {
